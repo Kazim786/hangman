@@ -7,7 +7,7 @@ const finalMessage = document.getElementById('final-message');
 
 const figureParts = document.querySelectorAll('.figure-part');
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = ['application', 'programming', 'interface', 'wizard', 'basketball', 'icecream', 'nostalgia'];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
@@ -114,3 +114,5 @@ playAgainBtn.addEventListener('click', () => {
 });
 
 displayWord();
+
+//Thinking about adding a hint button that adds stuff to the correctLetters array. That'll dynamically add 1 correct letter to the line
